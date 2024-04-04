@@ -16,3 +16,8 @@ const postSchema=mongoose.Schema({
     }
 
 });
+
+
+const postMessage=mongoose.model('postmessage',postSchema);
+
+export default postMessage;
